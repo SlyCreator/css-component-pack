@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color:  #fdf1ec;
+}
+.container {
+    
+}
+.product-card {
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    margin: 50px auto;
+    border-radius: 7px 7px 7px 7px;
+    -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+}
+.card-left{
+   width: 50%;
+    
+}
+.card-left img {
+    border-radius: 7px 0 0 7px;
+}
+.card-right{
+    background-color: white;
+    height: 370px;  
+}
+.text1{
+    border-radius: 0 7px 10px 7px;
+}
+h1{
+    font-family: 'Bentham', serif;
+    font-size: 30px;
+    margin: 40px 25px 0 30px;
+    color: #474747;
+}
+h2{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    margin: 1px 25px 0 30px;
+}
+p{
+    font-family: 'Playfair Display', serif;
+    color: #8d8d8d;
+    font-size: 14px;
+    font-weight: 100;
+    margin: 40px 30px;
+    line-height: 1.7;
+}
+.card-right-button{
+    margin: 0 0 0 30px;
+}
+.span-a {
+    font-size: 30px;
+    margin: 0 10px 0 0;
+}
+.span-b{
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    background-color: #9cebd5;
+    padding: 15px 50px;
+    border-radius: 60px;
+    width: 180px;
+  
+}
+.span-b a {
+    color: white;
+    text-decoration: none;
+}
+.span-b span:hover {
+    background-color: #79b0a1;
+}
