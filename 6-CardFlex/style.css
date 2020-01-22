@@ -1,21 +1,24 @@
-*{
-    box-sizing: border-box;
+*,
+*::before,
+*::after { 
+  box-sizing: border-box;
 }
 body {
-    margin: 0;
+  
     font-family: 'Roboto','Helvetica Neue', Helvetica, Arial, sans-serif;
     background-color: #999999;
 }
 .cards {
-    display: flex;
-    flex-direction: row;
-    margin: 20px auto;
-    width: 300px;
+ 
 }
 
 .card{
-display: flex;
-flex-direction:row;
-margin: 50px;
-max-width: 33.3%;
+    float: right;
+    width:33.3%;
+    margin: 12px;
 }
+img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+  }

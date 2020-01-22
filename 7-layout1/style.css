@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:400,700|Open+Sans:400,700');
+:root {
+    --color : #3c3163;
+    --transition-time : 0.5s;
+}
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Open Sans';
+    background: #fafafa;
+}
+a {
+    color: inherit;
+  }
+.cards-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 4rem;
+    padding: 4em;
+    margin: 0 auto;
+    width: max-content;
+}
+
+.card {
+  background-image: linear-gradient(rgba(0,0,0,var(--bg-filter-opacity)),rgba(0,0,0,var(--bg-filter-opacity))), var(--bg-img);
+  background-size: cover;
+  background-position: center;
+  height: 20em;
+  width: 15em;
+  display: flex;
+  font-size: 1.5em;
+  border-radius: 1em;
+  --bg-filter-opacity: 0.5;
+}
+@media screen and (max-width: 1285px) {
+  .cards-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .cards-wrapper {
+    grid-template-columns: 1fr;
+  }

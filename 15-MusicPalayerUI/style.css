@@ -1,0 +1,135 @@
+*,html,::before,::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    font-family: 'Roboto',Arial, Verdana, sans-serif;
+    background: #e4f2fb;
+}
+a{
+    text-decoration: none;
+    color: #e4f2fb;
+}
+.app_container{
+    margin: 2rem auto;
+    width: 300px;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .19),
+    0 6px 6px -10px rgba(0, 0, 0, .23);
+}
+.app_body{
+
+}
+.app_cover{
+    position: relative;
+}
+.list{
+    display: flex;
+    position: absolute;
+    list-style-type: none; 
+}
+.list--cover{
+   top: 0.8rem;
+   width: 100%;
+}
+.list--cover li:last-child{
+    margin-right: .75rem;
+}
+img {
+    max-width: 100%;
+    border-radius: 0.153rem;
+}
+.progress {
+    position: relative;
+    height: 2px;
+    margin: -30px 20px 0px 20px;
+    background: white;
+}   
+.played {
+    width: 20%;
+    height: 2px;
+    position: absolute;
+    background: #F44336;
+}      
+.circle {
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 50%;
+    margin-left: 52px;
+    margin-top: -4px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+.app__info{
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.info{
+    margin:  auto;
+}
+.info__album,.info__artist {
+    font-size: .75rem;
+    font-weight: 100;
+    color: #666;
+    margin: .5rem auto;
+}
+.info__song{
+    color: rgb(218, 54, 42);
+}
+.list--buttons{
+   
+}
+.app_footer{
+ 
+}
+.fix-bug{
+    padding: 50px;
+    position: relative;
+    top: -80px;
+
+  
+}
+.app_buttons{
+    margin: 13px 30px;
+}
+.list--buttons{
+   
+}
+.list--buttons a {
+    padding-top: .45rem;
+    padding-right: .75rem;
+    padding-bottom: .45rem;
+    padding-left: .75rem;
+    font-size: 1.3rem;
+    border-radius: 50%;
+    box-shadow: 0 3px 6px rgba(33,33,33,.1), 0 3px 12px rgba(33,33,33,.15); align-items: center;
+}
+.list--buttons li:nth-of-type(2) a {
+    padding-top: .82rem;
+    padding-right: 1rem;
+    padding-bottom: .82rem;
+    padding-left: 1.19rem;
+    margin-left: .5rem;
+    font-size: 1.25rem;
+    color: rgba(rgb(218, 54, 42), .95);
+  }
+  .list--buttons li:first-of-type a,
+  .list--buttons li:last-of-type a {
+    font-size: .95rem;
+    color: #212121;
+    opacity: .5;
+   
+  
+  }
+  .list--buttons li:last-of-type a {
+    margin-left:12px; 
+  }
+  .list--buttons li:first-of-type a{
+      margin-right:10px; 
+  }
